@@ -1,4 +1,4 @@
-#include "holberton.h"
+#include "main.h"
 
 /**
  * my_sqrt_recursion - This is my my_sqrt_recursion
@@ -30,4 +30,3 @@ int _sqrt_recursion(int n)
 		return (-1);
 	return (my_sqrt_recursion(n, 0));
 }
-
